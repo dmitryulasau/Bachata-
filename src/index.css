@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5% !important;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+
+  line-height: 1;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited,
+a:active,
+a:link {
+  color: var(--white);
+}
+
+/* COLORS */
+:root {
+  --primary-color: #ffffff;
+}
