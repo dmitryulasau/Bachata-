@@ -1,9 +1,10 @@
 import "./App.css";
+import SignInCard from "./components/SignInCard";
 
 function App() {
   return (
     <>
-      <h1>HELLO BACHATA</h1>
+      <SignInCard />
     </>
   );
 }
